@@ -9,6 +9,12 @@ public class Person {
 
     private List<String> hobbies;
 
+    public Person() {
+    }
+
+    public Person(String name) {
+    }
+
     public List<String> getHobbies() {
         return hobbies;
     }
